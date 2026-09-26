@@ -1,10 +1,3 @@
-Here is a professional, portfolio-ready `README.md` that highlights both the functionality of your tool and the solid software engineering principles (hashing, state management, testing) behind it.
-
-You can copy and paste the text below directly into a `README.md` file in your repository.
-
----
-
-```markdown
 # Smart File Organizer 📂✨
 
 A robust, zero-dependency command-line utility that intelligently declutters directories. Built with file safety as a priority, it features SHA-256 duplicate detection, dry-run previews, and a state-managed undo system to ensure you never lose or misplace data.
@@ -13,8 +6,6 @@ A robust, zero-dependency command-line utility that intelligently declutters dir
 ![Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 
-*(**Portfolio Note:** Add a GIF here showing the CLI in action using a tool like [Terminalizer](https://terminalizer.com/) or [VHS](https://github.com/charmbracelet/vhs))*
-
 ## 🚀 Features
 
 * **Intelligent Deduplication:** Uses cryptographic `SHA-256` hashing to detect true file duplicates, regardless of their filenames. 
@@ -22,6 +13,7 @@ A robust, zero-dependency command-line utility that intelligently declutters dir
 * **Dry-Run Previews:** Preview exactly where files will go and which duplicates will be skipped without making a single change to your disk.
 * **Zero Core Dependencies:** The main script is built entirely using the Python Standard Library (`pathlib`, `hashlib`, `json`, `shutil`).
 * **Chronological Sorting:** Optional `--by-date` flag sorts files into `Year/Month` subdirectories based on system modification timestamps.
+
 
 ## 🧠 Architecture Flow
 
@@ -49,7 +41,7 @@ Because the core script relies purely on standard Python libraries, installation
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/smart-file-organizer.git](https://github.com/yourusername/smart-file-organizer.git)
+git clone [https://github.com/MiaBurhan/smart-file-organizer.git](https://github.com/MiaBurhan/smart-file-organizer.git)
 cd smart-file-organizer
 
 # Run the script directly
@@ -119,14 +111,3 @@ pytest test_smart_organizer.py -v
 ## 📄 License
 
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE&utm_source=gemini).
-
-```
-
-***
-
-### Next Steps before you push to GitHub:
-1. Copy the text block above into a file named `README.md`.
-2. Replace `yourusername` in the clone link with your actual GitHub username.
-3. Replace the `*(Portfolio Note...)*` line with an actual GIF of your script running. Let me know if you need help generating one!
-
-```
