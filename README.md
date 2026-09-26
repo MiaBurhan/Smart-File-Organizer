@@ -6,6 +6,8 @@ A robust, zero-dependency command-line utility that intelligently declutters dir
 ![Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 
+![Alt text](/dry_run.gif)
+
 ## 🚀 Features
 
 * **Intelligent Deduplication:** Uses cryptographic `SHA-256` hashing to detect true file duplicates, regardless of their filenames. 
